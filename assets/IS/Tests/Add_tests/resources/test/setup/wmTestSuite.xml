@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<webMethodsTestSuite description="Sample tests for the WmServiceMockSamples implementation" name="Add_tests">
+    <webMethodsTestCase name="Test_case1">
+        <service folder="devops" name="Add_int">
+            <input>
+                <file filename="resources/test/data/Add_inputs.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/Add_output.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+    <webMethodsTestCase name="Test_case2">
+        <service folder="devops" name="Add_int">
+            <input>
+                <file filename="resources/test/data/Add_inputs1.xml"/>
+            </input>
+            <expected>
+                <file filename="resources/test/data/Add_output2.xml"/>
+            </expected>
+        </service>
+    </webMethodsTestCase>
+</webMethodsTestSuite>
